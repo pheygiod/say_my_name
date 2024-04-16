@@ -1,8 +1,8 @@
 # say_my_name
 Exploring Breaking Bad's episodes transcripts and making some cool plots.
 
-- Table of Contents
-- General Info
+## Table of Contents
+- General Information
 - Setup
 - Usage
 - Challenges
@@ -10,22 +10,22 @@ Exploring Breaking Bad's episodes transcripts and making some cool plots.
 - Future Data Exploration Ideas
 - Acknowledgements
 - Contact
-- General Information
 
+##General Information
 I’m uploading the code of the data I explored from the TV series "Breaking Bad", my favourite of all times!🚛🥼⚗️
 
-The goal was to explore the transcript of the TV series to see if I could find any interesting pattern. I extracted each episode's transcript from an online website and then constructed a data frame with each season, episode number, episode title, character's name, and character's sentence. I also want to support other coders who are BB (or any TV Series/ movies) lovers just like me and want to learn how to plot their own data visualizations!📈
+The goal was to explore the transcript of the TV series to see if I could find any interesting pattern. I extracted each episode's transcript from an online website and then constructed a data frame with each season, episode number, episode title, character's name, and character's sentence. I also want to support other coders who are BB (or any TV Series/ movies) lovers just like me and want to learn how to plot their own data visualisations!📈
 
-I used a website with Breaking Bad's transcripts available on [Forever Dreaming](https://transcripts.foreverdreaming.org/viewforum.php?f=165), made up of 64 Tv series's episodes. I used each episode's url to download all the webpage source code. This allowed me to extract the required part which included the data I wanted (i.e., transcripts, episode title, number, and season). Once that's done, I then built a data frame, cleansed the data, explored it, analysed it, and made some plots.
+I used a website with Breaking Bad's transcripts available on [Forever Dreaming](https://transcripts.foreverdreaming.org/viewforum.php?f=165), made up of 64 TV series's episodes. I used each episode's URL to download all the webpage source code. This allowed me to extract the required part which included the data I wanted (i.e., transcripts, episode title, number, and season). Once that's done, I then built a data frame, cleansed the data, explored it, analysed it, and made some plots.
 
 ## Setup
 First off, make sure you have conda🐍👀:
 
-`conda create -n <replace-with-name-you-want> python=3.11
+`conda create -n <replace-with-name-you-want> python=3.11`
 
-conda activate <replace-with-name-you-want>
+`conda activate <replace-with-name-you-want>`
 
-pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 ## Usage
 Check out the following files in my repo to see how I've extracted, cleansed, explored, analysed, and plotted the data! 
@@ -35,7 +35,7 @@ Check out the following files in my repo to see how I've extracted, cleansed, ex
 - `data_clustering_and_network_analysis.ipynb'
 
 ## Challenges
-One of the biggest challenges was extracting the transcripts, episodes, and seasons from the text of the webpage source code. It wasn't easy to navigate through the webpage source code and find the relevant text. We used the `find()` function and the indices of the substrings to discover where the transcripts start and end. This helped us remove any unnecessary text that is unhelpful to my analysis. Another challenge was realising why we were getting an error when we were trying to split each transcripts into character's name and character's sentences depending on where the colon was (e.g. `['Walter: "My name is Walter White"']`. With a `Try and Except` statement, we found out that the splitting was not working for some transcripts. This was because, in some text, the colon was missing. We then realised that this was because the character's name itself was missing! This meant that we sadly couldn't use 2 out of the 5 seasons of the TV series. So we ended up carrying out our analysis and make our conclusions only with 3 out of 5 TV series of Breaking Bad: Season n1, 2, and 3. 
+One of the biggest challenges was extracting the data from the text of the webpage source code. It wasn't easy to navigate through the webpage source code and find the relevant text. We used the `find()` function and the indices of the substrings to find the transcripts' start and end. This helped us remove any unnecessary text that is unhelpful to our analysis. We also got an error when splitting transcripts into character's names and sentences. This was depending on where the colon was (e.g. `['Walter: "My name is Walter White"']`. With a `Try and Except` statement, we found out that the splitting was not working for some transcripts. This was because, in some text, the colon was missing. We then realised that this was because the character's name itself was missing! This meant that we sadly couldn't use 2 out of the 5 seasons of the TV series. So we carried out our analysis and make our conclusions only with 3 out of 5 TV series of Breaking Bad: Season n1, 2, and 3.
 
 ## Project Results
 Here are the main conclusions we reached so far:
@@ -51,7 +51,6 @@ Here are the main conclusions we reached so far:
 We could find a way to label the missing transcripts with their character's names. We could also find a different dataset with all labelled transcripts. This would help us draw more accurate analysis on the show. 
 
 ##Acknowledgements 
-
 A massive thank you to [Ward Haddadin](https://github.com/wardhaddadin1) for the awesome design of the data extraction process! It wouldn't have been such an enjoyable data adventure if it wasn't for your help!
 
 Big kudos to [Dylan Castillo](https://dylancastillo.co/) for the fantastic article on how to cluster text using Word2Vec!
