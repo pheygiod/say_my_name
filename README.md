@@ -1,7 +1,7 @@
 # say_my_name
 Exploring Breaking Bad's episodes transcripts and making some cool plots.
 
-## Table of Contents
+## Table of Contents
 - General Information
 - Setup
 - Usage
@@ -11,7 +11,7 @@ Exploring Breaking Bad's episodes transcripts and making some cool plots.
 - Acknowledgements
 - Contact
 
-##General Information
+## General Information
 I’m uploading the code of the data I explored from the TV series "Breaking Bad", my favourite of all times!🚛🥼⚗️
 
 The goal was to explore the transcript of the TV series to see if I could find any interesting pattern. I extracted each episode's transcript from an online website and then constructed a data frame with each season, episode number, episode title, character's name, and character's sentence. I also want to support other coders who are BB (or any TV Series/ movies) lovers just like me and want to learn how to plot their own data visualisations!📈
