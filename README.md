@@ -32,7 +32,7 @@ Check out the following files in my repo to see how I've extracted, cleansed, ex
 
 - `data_processing.ipynb`
 - `data_exploration.ipynb`
-- `data_clustering_and_network_analysis.ipynb'
+- `data_clustering_and_network_analysis.ipynb`
 
 ## Challenges
 One of the biggest challenges was extracting the data from the text of the webpage source code. It wasn't easy to navigate through the webpage source code and find the relevant text. We used the `find()` function and the indices of the substrings to find the transcripts' start and end. This helped us remove any unnecessary text that is unhelpful to our analysis. We also got an error when splitting transcripts into character's names and sentences. This was depending on where the colon was (e.g. `['Walter: "My name is Walter White"']`. With a `Try and Except` statement, we found out that the splitting was not working for some transcripts. This was because, in some text, the colon was missing. We then realised that this was because the character's name itself was missing! This meant that we sadly couldn't use 2 out of the 5 seasons of the TV series. So we carried out our analysis and make our conclusions only with 3 out of 5 TV series of Breaking Bad: Season n1, 2, and 3.
