@@ -40,9 +40,7 @@ One of the biggest challenges was extracting the data from the text of the webpa
 ## Project Results
 Here are the main conclusions we reached so far:
 
-![alt text](https://github.com/[pheygiod]/[say_my_name]/blob/longest_sentence_by_char_chart.jpg?raw=true)
-
-/Users/giorgiadimiccoli/Desktop/Screenshot 2024-04-18 at 10.16.14.png
+![This text is displaying because the image is failing to load. To see the image, please click on `longest_sentence_by_char_chart.png`.](https://github.com/pheygiod/say_my_name/blob/main/longest_sentence_by_char_chart.png)
 
 - The top 3 characters with the longest sentences are Hank, Walter, and Skyler. The top 3 characters with the shortest sentences are 'Everyone' (i.e., a group of people), Skyler, and Walter.
 
