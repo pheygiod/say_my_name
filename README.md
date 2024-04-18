@@ -40,23 +40,23 @@ One of the biggest challenges was extracting the data from the text of the webpa
 ## Project Results
 Here are the main conclusions we reached so far:
 
-![This text is displaying because the image is failing to load. To see the image, please click on `longest_sentence_by_char_chart.png`.](longest_sentence_by_char_chart.png)
+![This text is displaying because the image is failing to load. To see the image, please click on `longest_sentence_by_char_chart.png`.](imgs_dir/longest_sentence_by_char_chart.png)
 
 - The top 3 characters with the longest sentences are Hank, Walter, and Skyler. The top 3 characters with the shortest sentences are 'Everyone' (i.e., a group of people), Skyler, and Walter.
 
-![This text is displaying because the image is failing to load. To see the image, please click on `longest_season_chart.png`.](longest_season_chart.png)
+![This text is displaying because the image is failing to load. To see the image, please click on `longest_season_chart.png`.](imgs_dir/longest_season_chart.png)
 
 - Out of all the seasons we managed to analyse, season 2 is the longest. Yet, we only managed to analyse season 1 and 2 and part of season 3. We couldn't analyse season 4 and 5 due to the character's names issue.
 
-![This text is displaying because the image is failing to load. To see the image, please click on `scatter_plot.png`.](scatter_plot.png)
+![This text is displaying because the image is failing to load. To see the image, please click on `scatter_plot.png`.](imgs_dir/scatter_plot.png)
 
 - We found a linear correlation between longest sentences and the number of sentences. So he more sentences a character says, the longer their largest sentence is. This is because the main characters often speak profound and deep sentences.
 
-![This text is displaying because the image is failing to load. To see the image, please click on `cluster_graph.png`.](cluster_graph.png)
+![This text is displaying because the image is failing to load. To see the image, please click on `cluster_graph.png`.](imgs_dir/cluster_graph.png)
 
 - We discovered that Jesse and Walter Jr have very distinguished clusters compared to other characters. Characters speaking similarly include women (e.g., Skyler, Marie, Jane), young characters (e.g., Walter Jr and Jane), and characters who discuss similar topics (e.g., Walter, Hank, and Saul).
 
-![This text is displaying because the image is failing to load. To see the image, please click on `network_graph.png`.](network_graph.png)
+![This text is displaying because the image is failing to load. To see the image, please click on `network_graph.png`.](imgs_dir/network_graph.png)
 
 - The most frequent conversation happens between Walter and Jesse. The second one is between Walter and Skyler. The third strongest relationship is the one between Jesse and Jane.
 
